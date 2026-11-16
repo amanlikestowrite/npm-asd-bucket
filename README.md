@@ -67,8 +67,8 @@ No configuration is required. Use Git's normal identity settings (`user.name` an
 ## Development
 
 ```sh
-git clone https://github.com/your-name/commit-mate.git
-cd commit-mate
+git clone https://github.com/amanlikestowrite/npm-asd-bucket.git
+cd npm-asd-bucket
 npm install
 npm test
 npm run lint

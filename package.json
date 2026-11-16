@@ -9,9 +9,9 @@
   "engines": { "node": ">=18.18.0" },
   "scripts": { "test": "vitest run", "test:watch": "vitest", "lint": "node --check src/cli.js && node --check src/index.js" },
   "keywords": ["git", "commit", "conventional-commits", "cli", "developer-tools"],
-  "author": "Your Name <you@example.com>",
+  "author": "amanshar1302",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/your-name/commit-mate.git" },
+  "repository": { "type": "git", "url": "https://github.com/amanlikestowrite/npm-asd-bucket.git" },
   "dependencies": { "@inquirer/prompts": "^7.3.2", "chalk": "^5.4.1", "commander": "^13.1.0", "ora": "^8.2.0" },
   "devDependencies": { "vitest": "^4.1.12" }
 }
