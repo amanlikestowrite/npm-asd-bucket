@@ -1,17 +1,52 @@
 {
-  "name": "commit-mate",
+  "name": "@amanlikestowrite/commit-mate",
   "version": "0.1.0",
   "description": "A friendly CLI for clear Conventional Commit messages.",
   "type": "module",
-  "bin": { "commit-mate": "./src/cli.js" },
-  "exports": { ".": "./src/index.js", "./git": "./src/git/index.js", "./generator": "./src/generator/index.js" },
-  "files": ["src", "README.md", "LICENSE"],
-  "engines": { "node": ">=18.18.0" },
-  "scripts": { "test": "vitest run", "test:watch": "vitest", "lint": "node --check src/cli.js && node --check src/index.js" },
-  "keywords": ["git", "commit", "conventional-commits", "cli", "developer-tools"],
+  "bin": {
+    "commit-mate": "src/cli.js"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./git": "./src/git/index.js",
+    "./generator": "./src/generator/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "node --check src/cli.js && node --check src/index.js"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "conventional-commits",
+    "cli",
+    "developer-tools"
+  ],
   "author": "amanshar1302",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/amanlikestowrite/npm-asd-bucket.git" },
-  "dependencies": { "@inquirer/prompts": "^7.3.2", "chalk": "^5.4.1", "commander": "^13.1.0", "ora": "^8.2.0" },
-  "devDependencies": { "vitest": "^4.1.12" }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanlikestowrite/npm-asd-bucket.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.2",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.12"
+  }
 }

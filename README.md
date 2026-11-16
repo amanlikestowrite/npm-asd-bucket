@@ -14,9 +14,9 @@ Commit Mate is a lightweight command-line companion for writing clear [Conventio
 ## Installation
 
 ```sh
-npm install -g commit-mate
+npm install -g @amanlikestowrite/commit-mate
 # or run without installing
-npx commit-mate
+npx @amanlikestowrite/commit-mate
 ```
 
 Requires Node.js 18.18 or newer and Git on your PATH.
